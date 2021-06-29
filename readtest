@@ -1,0 +1,26 @@
+Write a console app in PHP that satisfy these requirements:
+
+System shows all available items to bid on.
+System records a bid from users which the maximum amount that the user want to bid for an item.
+System finalizes the winner with the winning price.
+
+For example,
+Bid items:
+ID             Name           Start Price       Increase Bid Amount 
+
+ 1          iPhone 11               200                           10
+
+ 2          SS Note 10              150                            5
+
+User A bid for item 1 with price $400;
+User B bid for item 1 with price $300;
+System select the winner is User A with the price to pay is $310.
+In this case, User A can pay up to $400 to win the bid. But he don't need to. He just need to pay more than $300 (max price of user B) to win. So the result is $310 ($10 more as Increase Bid Amount).
+ 
+Directions
+
+While working on this app keep in mind that we want to see how well you can understand the needs of a client, how well you can implement a solution to meet those needs, your ability to comment code, and your object oriented programming skills.
+Please don't use persistent storage (e.g. SQL database) or spend much time on the UI (unless you love doing that)
+No need for authentication.
+ 
+Good luck and we’re excited to see the results!
